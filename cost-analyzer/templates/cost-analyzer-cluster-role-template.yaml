@@ -62,6 +62,8 @@ rules:
     verbs:
       - list
       - watch
+      - update
+      - get
   - apiGroups:
       - batch
     resources:
